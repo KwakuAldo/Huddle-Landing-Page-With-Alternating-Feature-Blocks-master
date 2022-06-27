@@ -1,6 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
 :root {
     /**Primary Colors **/
-    --Pink : hsl(322, 100%, 66%);
+    --Pink: hsl(322, 100%, 66%);
     /** Neutral Colors **/
     --Very-Pale-Cyan: hsl(193, 100%, 96%);
     --Very-Dark-Cyan: hsl(192, 100%, 9%);
@@ -211,7 +218,7 @@ p {
 .card-4 h2 {
     font-size: 0.99rem;
     width: 17rem;
-} 
+}
 
 .footer {
     background-color: var(--Very-Dark-Cyan);
@@ -269,7 +276,7 @@ p {
 }
 
 .flex-2 li {
-    margin: 1rem 0  1rem 1rem;
+    margin: 1rem 0 1rem 1rem;
     list-style-type: none;
 }
 
@@ -283,9 +290,7 @@ p {
     align-items: center;
 }
 
-.sm-icons {
-
-}
+.sm-icons {}
 
 .copyright {
     text-align: center;
@@ -312,13 +317,13 @@ p {
 
 @media screen and (min-width: 412px) {
     h1 {
-            font-size: 1.5rem;
-        }
-    
-        h1,
-        h2 {
-            width: 16.5rem;
-        }
+        font-size: 1.5rem;
+    }
+
+    h1,
+    h2 {
+        width: 16.5rem;
+    }
 
     aside {
         margin-top: 4.4rem;
@@ -334,17 +339,15 @@ p {
         margin-top: 1.2rem;
         width: 15rem;
     }
-    
+
     .hero-image img {
         width: 18rem;
     }
 }
 
-@media screen and (min-width: 414px) {
-    
-}
+@media screen and (min-width: 414px) {}
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 480px) {
 
     h1 {
         width: 20rem;
@@ -489,7 +492,7 @@ p {
     .mid {
         margin-bottom: 13rem;
     }
-    
+
     .cards {
         display: flex;
         flex-direction: row;
@@ -659,6 +662,7 @@ p {
         margin-bottom: 1.5rem;
     }
 }
+
 /**
 .header {
     background-image: url(../images/bg-hero-desktop.svg);

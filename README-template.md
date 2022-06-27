@@ -16,8 +16,6 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -51,19 +49,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Icons](https://fontawesome.com/) - For styles
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+This project has really being challenging for me. I started with Desktop-first design approach(as i always do), but then I realized I had to write multiple media queries for bigger screens, something i  never had to do. So I started all over again with Mobile-first design approach using CSS Flexbox. The reason being that the background image for the 
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
